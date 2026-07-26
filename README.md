@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1A2B4C&height=200&section=header&text=Rasheaduzzaman&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Technical%20Product%20Manager%20%7C%20AI%20%26%20Computer%20Vision&descAlignY=55&descSize=18&descColor=CFE0F5" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1A2B4C&height=200&section=header&text=Rasheaduzzaman&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Technical%20Product%20Manager%20%7C%20AI%20and%20Computer%20Vision&descAlignY=55&descSize=18&descColor=CFE0F5" width="100%"/>
 
 # Hi 👋, I'm Rasheaduzzaman
 

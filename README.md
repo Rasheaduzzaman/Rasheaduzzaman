@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/hero.svg" width="100%" alt="Rasheaduzzaman — Technical Product and Project Management"/>
+<img src="hero.svg" width="100%" alt="Rasheaduzzaman — Technical Product and Project Management"/>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2C9CDB&center=true&vCenter=true&width=650&height=40&lines=Turning+requirements+into+shipped+products;Smart+campus+mobility+%40+UCar-e+by+Perodua;Computer+vision+delivery+%40+Tapway;Always+learning%2C+always+building." alt="Typing SVG"/></a>
 <br/><br/>
 <a href="https://www.linkedin.com/in/a-n-m-rasheaduzzaman-b003b9259/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -34,7 +34,7 @@
 <a name="journey"></a>
 <h2>🛤️ My Journey</h2>
  
-<img src="assets/journey.svg" width="100%" alt="My journey: 2023 Data Labeller at Tapway, 2025 Product Engineer at UCar-e, 2026 Project Executive at Tapway, next Technical PM"/>
+<img src="journey.svg" width="100%" alt="My journey: 2023 Data Labeller at Tapway, 2025 Product Engineer at UCar-e, 2026 Project Executive at Tapway, next Technical PM"/>
 <hr/>
 <h2>🧭 What I Do</h2>
  
@@ -62,7 +62,7 @@
 </tr>
 </table>
 <br/>
-<img src="assets/pipeline.svg" width="100%" alt="How I ship: Discover, Requirements, Build, UAT, Launch"/>
+<img src="pipeline.svg" width="100%" alt="How I ship: Discover, Requirements, Build, UAT, Launch"/>
 <hr/>
 <a name="work"></a>
 <h2>💡 Case Studies</h2>

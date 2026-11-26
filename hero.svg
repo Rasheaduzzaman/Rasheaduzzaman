@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Rasheaduzzaman — Technical Product and Project Management">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1622"/>
+      <stop offset="0.55" stop-color="#14303F"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2C9CDB" stroke-opacity="0.09"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39FF88" stop-opacity="0"/>
+      <stop offset="1" stop-color="#39FF88" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFE27A" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFE27A" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1000" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+
+    <!-- twinkling data points -->
+    <g fill="#CFE0F5">
+      <circle cx="90" cy="70" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="210" cy="150" r="1.4"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="820" cy="80" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="160" r="1.4"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="50" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="320" cy="60" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- campus skyline -->
+    <path d="M0 236 V206 H38 V190 H72 V210 H110 V176 H128 V168 H146 V176 H164 V204 H210 V192 H246 V214 H300 V186 H340 V200 H390 V212 H610 V198 H650 V180 H690 V206 H740 V172 H760 V160 H780 V172 H800 V200 H850 V188 H890 V210 H930 V194 H1000 V236 Z" fill="#0B1622" opacity="0.6"/>
+
+    <!-- road -->
+    <rect y="236" width="1000" height="64" fill="#0A121A"/>
+    <line x1="0" y1="237.5" x2="1000" y2="237.5" stroke="#2C5364" stroke-width="2"/>
+    <line x1="0" y1="282" x2="1000" y2="282" stroke="#F2C94C" stroke-width="3" stroke-dasharray="30 24" opacity="0.8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-54" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- CV scanline -->
+    <rect x="0" width="1000" height="70" fill="url(#scan)">
+      <animate attributeName="y" values="-70;300" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- camera frame corners -->
+    <g stroke="#39FF88" stroke-width="2.5" fill="none" opacity="0.8">
+      <path d="M18 52 V18 H52"/>
+      <path d="M948 18 H982 V52"/>
+    </g>
+
+    <!-- HUD -->
+    <circle cx="34" cy="34" r="5" fill="#FF4D4D">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="46" y="38" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#CFE0F5" opacity="0.85">REC · CAM-01 · SMART CAMPUS</text>
+    <text x="966" y="38" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#CFE0F5" opacity="0.85">FPS 30 · VEHICLES 1 · PEOPLE 1</text>
+
+    <!-- title -->
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
+      <text x="500" y="100" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#FFFFFF" letter-spacing="1">Rasheaduzzaman</text>
+      <text x="500" y="134" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#CFE0F5">Technical Product &amp; Project Management</text>
+      <text x="500" y="160" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#2C9CDB" letter-spacing="2">AI · COMPUTER VISION · SMART MOBILITY</text>
+    </g>
+
+    <!-- pedestrian with people tracking -->
+    <g transform="translate(700 236)">
+      <animateTransform attributeName="transform" type="translate" values="1080 236;-80 236" dur="18s" repeatCount="indefinite"/>
+      <!-- track trail -->
+      <g fill="#FFB020"><circle cx="26" cy="-2" r="2.2" opacity="0.7"/><circle cx="40" cy="-2" r="2" opacity="0.5"/><circle cx="54" cy="-2" r="1.8" opacity="0.32"/><circle cx="68" cy="-2" r="1.6" opacity="0.18"/></g>
+      <ellipse cx="0" cy="0" rx="12" ry="2.5" fill="#000" opacity="0.4"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="-22 2 -22;22 2 -22;-22 2 -22" dur="0.8s" repeatCount="indefinite"/><line x1="2" y1="-22" x2="4" y2="-1" stroke="#2B3E5C" stroke-width="5" stroke-linecap="round"/></g>
+      <g><animateTransform attributeName="transform" type="rotate" values="22 -2 -22;-22 -2 -22;22 -2 -22" dur="0.8s" repeatCount="indefinite"/><line x1="-2" y1="-22" x2="-4" y2="-1" stroke="#34507A" stroke-width="5" stroke-linecap="round"/></g>
+      <g><animateTransform attributeName="transform" type="rotate" values="28 3 -40;-28 3 -40;28 3 -40" dur="0.8s" repeatCount="indefinite"/><line x1="3" y1="-40" x2="6" y2="-26" stroke="#C9564A" stroke-width="4" stroke-linecap="round"/></g>
+      <rect x="3" y="-40" width="9" height="15" rx="3" fill="#2C9CDB"/>
+      <path d="M-6 -42 Q0 -45 6 -42 L6 -22 L-6 -22 Z" fill="#E86A5A"/>
+      <g><animateTransform attributeName="transform" type="rotate" values="-28 -3 -40;28 -3 -40;-28 -3 -40" dur="0.8s" repeatCount="indefinite"/><line x1="-3" y1="-40" x2="-6" y2="-26" stroke="#E86A5A" stroke-width="4" stroke-linecap="round"/></g>
+      <circle cx="0" cy="-49" r="6.5" fill="#E8B48C"/>
+      <path d="M-6.5 -50 Q-6 -57 0 -57 Q6.5 -57 6.5 -51 Q2 -53 -6.5 -50 Z" fill="#2A1E17"/>
+      <rect x="-20" y="-64" width="40" height="68" rx="3" fill="#FFB020" fill-opacity="0.06" stroke="#FFB020" stroke-width="1.8"/>
+      <rect x="-20" y="-80" width="124" height="16" fill="#FFB020"/>
+      <text x="-15" y="-68" font-family="Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#0B1622">person 0.97 · ID 02</text>
+    </g>
+
+    <!-- car with live detection box -->
+    <g transform="translate(420 222)">
+      <animateTransform attributeName="transform" type="translate" values="-200 222;1200 222" dur="9s" repeatCount="indefinite"/>
+      <polygon points="120,15 215,0 215,34" fill="url(#beam)"/>
+      <ellipse cx="61" cy="43" rx="60" ry="4" fill="#000" opacity="0.45"/>
+      <path d="M2 28 L2 16 Q2 10 8 10 L18 9 L30 -9 Q33 -12 38 -12 L66 -12 Q71 -12 75 -8 L92 8 L112 11 Q120 12 120 20 L120 28 Q120 32 116 32 L6 32 Q2 32 2 28 Z" fill="#2C9CDB"/>
+      <path d="M2 24 L120 24 L120 28 Q120 32 116 32 L6 32 Q2 32 2 28 Z" fill="#1F7FB6"/>
+      <path d="M22 8 L32 -8 L46 -8 L46 8 Z" fill="#CFE0F5" opacity="0.9"/>
+      <path d="M50 8 L50 -8 L67 -8 L84 8 Z" fill="#CFE0F5" opacity="0.9"/>
+      <path d="M8 10 L112 11" stroke="#7CC4EE" stroke-width="1.2" opacity="0.7"/>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -0.8;0 0" dur="0.6s" repeatCount="indefinite"/>
+        <line x1="61" y1="-7" x2="61" y2="-11" stroke="#B8C2CC" stroke-width="1.2"/>
+        <circle cx="61" cy="-11.5" r="1.6" fill="#FF4D4D"/>
+        <rect x="54.5" y="-7" width="13" height="12" rx="5" fill="#E8EEF4"/>
+        <rect x="56" y="-4.5" width="10" height="5.5" rx="2.7" fill="#0B1622"/>
+        <circle cx="59" cy="-1.8" r="1.1" fill="#39E6FF"/><circle cx="63" cy="-1.8" r="1.1" fill="#39E6FF"/>
+        <rect x="53" y="-3.5" width="2.5" height="5" rx="1.2" fill="#2C9CDB"/>
+      </g>
+      <line x1="48" y1="9" x2="48" y2="24" stroke="#1F7FB6" stroke-width="1.5"/>
+      <rect x="54" y="14" width="7" height="2" rx="1" fill="#1F7FB6"/>
+      <path d="M17 32 A11.5 11.5 0 0 1 40 32 Z M82 32 A11.5 11.5 0 0 1 105 32 Z" fill="#0B1622"/>
+      <path d="M112 12 L119 14 L119 18 L112 17 Z" fill="#FFE27A"/>
+      <rect x="2" y="12" width="5" height="6" rx="1.5" fill="#FF4D4D"/>
+      <g transform="translate(28 32)">
+        <circle r="11.5" fill="#0B0F14"/>
+        <circle r="6" fill="#B8C2CC"/>
+        <g stroke="#0B0F14" stroke-width="2">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="0.45s" repeatCount="indefinite"/>
+          <line x1="-6" y1="0" x2="6" y2="0"/><line x1="0" y1="-6" x2="0" y2="6"/>
+        </g>
+        <circle r="2" fill="#0B0F14"/>
+      </g>
+      <g transform="translate(94 32)">
+        <circle r="11.5" fill="#0B0F14"/>
+        <circle r="6" fill="#B8C2CC"/>
+        <g stroke="#0B0F14" stroke-width="2">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="0.45s" repeatCount="indefinite"/>
+          <line x1="-6" y1="0" x2="6" y2="0"/><line x1="0" y1="-6" x2="0" y2="6"/>
+        </g>
+        <circle r="2" fill="#0B0F14"/>
+      </g>
+      <!-- track trail -->
+      <g fill="#39FF88"><circle cx="-22" cy="38" r="2.4" opacity="0.7"/><circle cx="-38" cy="38" r="2.2" opacity="0.5"/><circle cx="-54" cy="38" r="2" opacity="0.32"/><circle cx="-70" cy="38" r="1.8" opacity="0.18"/></g>
+      <!-- detection box -->
+      <rect x="-10" y="-30" width="142" height="78" rx="3" fill="#39FF88" fill-opacity="0.06" stroke="#39FF88" stroke-width="2"/>
+      <rect x="-10" y="-48" width="120" height="18" fill="#39FF88"/>
+      <text x="-4" y="-35" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="700" fill="#0B1622">car 0.98 · ID 01</text>
+      <rect x="-10" y="48" width="112" height="16" rx="2" fill="#0B1622" stroke="#39FF88" stroke-width="1"/>
+      <text x="-4" y="60" font-family="Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#39FF88">ANPR · UCE 2026</text>
+    </g>
+  </g>
+</svg>
